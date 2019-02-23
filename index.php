@@ -16,18 +16,18 @@
         </div>
     </section>   
     
-    <div class="container">
+        <div class="container">
 
-        <section class="intro-section" id="intro">
-            <div class="intro-content">
-                <h1><span class="text-secondary">What</span> is Web Builder ?</h1>
-                <p>Web Builder is a website that can help you to build yourself a website without the needs of coding.</p>                
-            </div>
-            <video autoplay muted loop>
-                    <source src="videos/sample.mp4" type="video/mp4">
-                </video>
-        </section>   
-    </div>
+            <section class="intro-section" id="intro">
+                <div class="intro-content">
+                    <h1><span class="text-secondary">What</span> is Web Builder ?</h1>
+                    <p>Web Builder is a website that can help you to build yourself a website without the needs of coding.</p>                
+                </div>
+                <video autoplay muted loop>
+                        <source src="videos/sample.mp4" type="video/mp4">
+                    </video>
+            </section>   
+        </div>
 
         <section class="describe-section">
             
@@ -54,8 +54,28 @@
 
             </div>
             <button class="btn">Start for free now !</button>
-        </section> 
 
+            <div class="tutorial-section">
+                
+                <div class="tutorial__content">                    
+                    <img src="images/teamwork.svg"/>                    
+                    <div class="tutorial__paragraph">
+                        <h1>1. Click on Login or Sign Up button.</h1>
+                        <p>asdasdssssssss</p>
+                    </div>
+                </div>
+
+                <div class="tutorial__content" style="flex-flow:row-reverse wrap">                    
+                    <img src="images/teamwork.svg"/>                    
+                    <div class="tutorial__paragraph">
+                        <h1>2. Verify account</h1>
+                        <p>asdasdssssssss</p>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+    
         <!-- <div style="height:1000px"></div> -->
     </div>
 </div>

@@ -177,7 +177,12 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     grid-area: s;    
     max-width: 100%;
     width: 100%;
-    padding: 15em 10em;
+    padding: 10em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .describe-section::before
@@ -267,7 +272,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     transform: translateY(5%);
 } */
 
-.describe-page-content .col:hover,.btn:hover
+.btn:hover
 {
     background-color: #ecf0f0;
     cursor: pointer;
@@ -321,6 +326,59 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     font-size: 1.5rem;
 }
 
+.tutorial-section
+{
+    background-color:white;
+    max-width:1200px;
+    width:100%;
+    min-height:50vh;
+    border-radius: 15px;
+    padding: 3em 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tutorial__content
+{
+    max-width: inherit;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.tutorial__content img
+{    
+    max-width: 400px;    
+    max-height: 400px;
+    width: 100%;
+    padding: 0em 2em;
+    padding-top: 2em;
+    object-fit: cover;
+}
+
+.tutorial__paragraph
+{
+    max-width: 600px;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+.tutorial__paragraph h1
+{
+    color: #2e3131; 
+    font-size: 2rem;
+}
+
+
+
 
 
 @media screen and ( max-width:900px )
@@ -332,12 +390,12 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
     .container
     {        
-        padding: 0 3em;
+        padding: 0 2em;
     }
 
     .hero-section .hero__content
     {
-        padding: 3em;
+        padding: 2em;
     }
     
     .hero-section .hero__content h1
@@ -357,7 +415,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
     .describe-section
     {
-        padding: 0 3em;
+        padding: 0 2em;
     }
 
     .intro-section
