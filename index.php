@@ -18,7 +18,7 @@
     
     <div class="container">
 
-        <section class="intro-section">
+        <section class="intro-section" id="intro">
             <div class="intro-content">
                 <h1><span class="text-secondary">What</span> is Web Builder ?</h1>
                 <p>Web Builder is a website that can help you to build yourself a website without the needs of coding.</p>                

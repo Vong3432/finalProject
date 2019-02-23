@@ -166,6 +166,12 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     color: #2e3131; 
 }
 
+.intro-section
+{
+    transition: opacity 1500ms ease-in-out;
+    opacity: 0;
+}
+
 .describe-section
 {
     grid-area: s;    
