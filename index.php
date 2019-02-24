@@ -29,7 +29,7 @@
             </div>
         </section>   
 
-        <section class="describe-section">
+        <section class="describe-section" id="describe">
             
             <div class="container">
                 <h1>Why Web Builder ?</h1>
@@ -57,7 +57,7 @@
 
                 <button class="btn">Start for free now !</button>
 
-                <div class="tutorial-section" id="tutol">
+                <div class="tutorial-section">
                     
                     <div class="tutorial__content">                    
                         <img src="images/teamwork.svg"/>                    
