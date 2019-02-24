@@ -28,9 +28,20 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
 .container
 {
-    grid-area: content;
-    max-width: 100%;
-    padding: 0 10em;
+    /* background-color: red; */
+    /* max-width: 100%;*/    
+    padding: 3em 2em;
+    max-width: 1400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* width: 100%; */
 }
 
 .topnav
@@ -107,16 +118,16 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     background-position: center;
     background-size: cover;
     position: relative;
-    min-height: 100vh;
-    
+    min-height: 100vh;    
     width: 100%;    
 }
 
 .hero-section .hero__content
-{
-    max-width: 1200px;
-    width: 100%;
-    padding: 3em 10em;      
+{   
+    width: 100%; 
+    padding: 3em 20em;       
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -151,57 +162,40 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
 
 
-.intro-section,.describe-section
-{     
-    max-width: 1800px;
-    display: flex;
+.intro-section
+{         
+    max-width: 100%;
+    width: 100%;    
+    /* display: flex;
     flex-flow: row wrap;
     align-items: center;  
     justify-content: center;  
     align-content: center;
-    justify-items: center;
-    position: relative;
-    min-height: 50vh;   
-    padding: 7em 0;
-    color: #2e3131; 
-}
-
-.intro-section
-{
+    justify-items: center; */
+    grid-area: content;
     transition: opacity 1500ms ease-in-out;
     opacity: 0;
+    padding: 7em 10em;
+    position: relative;
+    min-height: 50vh; 
 }
 
 .describe-section
 {
+    position: relative;
+    min-height: 50vh;       
+    color: #2e3131; 
     grid-area: s;    
     max-width: 100%;
     width: 100%;
-    padding: 10em;
+    padding: 10em 0em;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    align-content: center;
-}
-
-.describe-section::before
-{
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    content:'';
-    min-height: 50vh;
-    height: auto;
-    max-width: 100%;
-    width: 100%;
-    /* background-color: rgb(241, 153, 11); */
-    /* background-color: rgba(233, 52, 79, 0.959);         */
-    /* background-color: #0A9EE0; */
-    background-color: #11C4CD;
-    z-index: -1;    
+    align-content: center;    
+    background-color: rgb(20, 154, 207);
+    transition: background-color 500ms ease-in-out 3s;    
 }
 
 
@@ -214,7 +208,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 .intro-content
 {    
     max-width: 700px;
-    padding: 2em 2em;
+    padding: 2em 0em;
     text-align: center;
     /* margin-top: 100px; */
     width: 100%;    
@@ -227,18 +221,17 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     /* height: 600px;     */
 }
 
-.describe-content
-{
-    max-width: 600px;
-}
-
 .describe-page-content
 {
-    padding: 3em 7em;    
+    /* padding: 3em 7em;
+    max-width: 1800px;    
     width: 100%;    
+    margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     justify-items: center;        
@@ -246,7 +239,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
 .describe-page-content .col
 {            
-    margin:4vh 3vh;
+    margin:4vh 0vh;
     border-radius: 25px;
     box-shadow: 5px 0px 50px 0px rgba(0,0,0,0.1),
                 -5px 0px 50px 0px rgba(0,0,0,0.1);
@@ -256,6 +249,8 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     padding:4em 2em;  
     background-color: #fff;  
     transition: background-color 100ms linear;   
+    margin-left: auto;
+    margin-right: auto;
 }
 /* 
 .describe-page-content .col:nth-child(1)
@@ -321,7 +316,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 .intro-content p
 {
     color: rgba(0,0,0,0.6);
-    padding: 2em 3em;
+    padding: 2em 0em;
     line-height: 1.6;
     font-size: 1.5rem;
 }
@@ -329,11 +324,14 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 .tutorial-section
 {
     background-color:white;
-    max-width:1200px;
+    
     width:100%;
+
     min-height:50vh;
     border-radius: 15px;
-    padding: 3em 0;
+    padding: 3em 0em;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -359,7 +357,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     max-height: 400px;
     width: 100%;
     padding: 0em 2em;
-    padding-top: 2em;
+    padding-top: 1.5vh;
     object-fit: cover;
 }
 
@@ -375,11 +373,22 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 {
     color: #2e3131; 
     font-size: 2rem;
+    padding: 1.5vh 0;    
+}
+
+.tutorial__paragraph p
+{
+    margin-bottom: 50px;
 }
 
 
-
-
+@media screen and ( max-width:1023px )
+{
+    .describe-page-content
+    {
+        justify-content: center;
+    }
+}
 
 @media screen and ( max-width:900px )
 {
@@ -396,6 +405,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     .hero-section .hero__content
     {
         padding: 2em;
+        width: 100%;
     }
     
     .hero-section .hero__content h1
@@ -413,9 +423,9 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
         min-height: initial;             
     }
 
-    .describe-section
+    .describe-page-content
     {
-        padding: 0 2em;
+        padding: 3em 0;
     }
 
     .intro-section
@@ -452,7 +462,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     {
         box-shadow: none;
         /* margin: 0; */
-        margin: 3vh 0;
+        margin: 3vh 1vh;
         height: initial;
         padding: 4em 1em;
     }
