@@ -344,7 +344,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 .tutorial__content
 {
     max-width: inherit;
-    margin: 3vh 0;
+    margin: 6vh 0;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -366,15 +366,16 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
 .tutorial__paragraph
 {
-    max-width: 500px;
+    max-width: 800px;
     width: 100%;
-    padding: 1em 3vh;
-    /* text-align: center; */
+    padding: 1em 5vh;
+    text-align: center;
 }
 
 .tutorial__paragraph h1
 {
     /* color: #019875;  */
+    
     color: #2e3131;
     font-size: 2rem;
     padding: 1.5vh 0;    
@@ -382,7 +383,9 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
 .tutorial__paragraph p
 {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px;   */
+    margin:10px 0;
+    line-height: 1.6;  
     color: gray;
 }
 
@@ -477,8 +480,7 @@ p{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
 
     .tutorial__paragraph p
     {        
-        font-size: 1em;
-        line-height: 1.6;
+        font-size: 1em;        
     }
 
     .intro-content p,.describe-page-content .col p
