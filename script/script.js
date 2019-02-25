@@ -4,7 +4,7 @@ $(window).scroll(function(){
     var introPos = document.getElementById('intro').offsetTop;
     var describePos = document.getElementById('describe').offsetTop;
     
-    if( wScroll > introPos - 100 )      
+    if( wScroll > introPos - 200 )      
     {
         // document.getElementById('intro').style.webkitTransition = 'opacity 1s';
         // $('.intro-section').css('opacity','1');
@@ -15,7 +15,7 @@ $(window).scroll(function(){
 
     if( wScroll > describePos - 100 )
     {
-        $('.describe-section').css('background-color','#2c3e50');        
+        $('.describe-section').css('background-color','#03c9a9');        
     }
     
 })
@@ -23,5 +23,5 @@ $(window).scroll(function(){
 function parallax()
 {
     var scroll = $(window).scrollTop();
-    $(".hero-section").css("background-position","center "+ (scroll * 0.5)+"px");
+    // $(".hero-section").css("background-position","center "+ (scroll * 0.15)+"px");
 }

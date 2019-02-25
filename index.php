@@ -5,16 +5,19 @@
 <div id="app">
     <?php include('components/navbar.php');  ?>    
     <section class="hero-section">
-        <div class="container">
+        
             <div class="hero__content">
                 <h1>Web Builder</h1>
-                <p>Build your website for free.</p>
-                <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect fill="white"/>
-                    <path d="M67.7023 19.3116C66.8093 18.4186 65.3581 18.4186 64.4651 19.3116L36 47.8326L7.47906 19.3116C6.58604 18.4186 5.13487 18.4186 4.24185 19.3116C3.34883 20.2047 3.34883 21.6558 4.24185 22.5488L34.3256 52.6326C34.7721 53.0791 35.3302 53.3023 35.9442 53.3023C36.5023 53.3023 37.1163 53.0791 37.5628 52.6326L67.6465 22.5488C68.5953 21.6558 68.5953 20.2047 67.7023 19.3116V19.3116Z" fill="white"/>
-                </svg>
+                <p>Build your website for free.</p> 
+                <svg viewBox="0 0 72 72" fill="#f62459" xmlns="http://www.w3.org/2000/svg">
+                    <rect fill="#f62459"/>
+                    <path d="M67.7023 19.3116C66.8093 18.4186 65.3581 18.4186 64.4651 19.3116L36 47.8326L7.47906 19.3116C6.58604 18.4186 5.13487 18.4186 4.24185 19.3116C3.34883 20.2047 3.34883 21.6558 4.24185 22.5488L34.3256 52.6326C34.7721 53.0791 35.3302 53.3023 35.9442 53.3023C36.5023 53.3023 37.1163 53.0791 37.5628 52.6326L67.6465 22.5488C68.5953 21.6558 68.5953 20.2047 67.7023 19.3116V19.3116Z" fill="#f62459"/>
+                </svg>               
             </div>
-        </div>
+            <div class="hero__content">
+                <img src="images/laptop.png" style="max-width:800px;width:100%;max-height:400px;object-fit:cover;"/>
+            </div>
+        
     </section>               
 
         <section class="intro-section" id="intro">
