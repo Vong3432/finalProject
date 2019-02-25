@@ -15,7 +15,7 @@ $(window).scroll(function(){
 
     if( wScroll > describePos - 100 )
     {
-        $('.describe-section').css('background-color','#f62459');        
+        $('.describe-section').css('background-color','#2c3e50');        
     }
     
 })

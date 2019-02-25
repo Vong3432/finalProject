@@ -58,20 +58,22 @@
                 <button class="btn">Start for free now !</button>
 
                 <div class="tutorial-section">
-                    
+                    <h1 style="color: #2e3131;padding-bottom:3vh" id="tutorial-title">
+                        <span class="text-secondary">How</span> to start ?
+                    </h1>
                     <div class="tutorial__content">                    
-                        <img src="images/teamwork.svg"/>                    
+                        <img src="images/lock.svg"/>                    
                         <div class="tutorial__paragraph">
-                            <h1>1. Click on Login or Sign Up button.</h1>
-                            <p>asdasdssssssss</p>
+                            <h1>1. Click on <span class="text-secondary">Login</span> or <span class="text-secondary">Sign Up</span> button.</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                         </div>
                     </div>
 
                     <div class="tutorial__content" style="flex-flow:row-reverse wrap">                    
-                        <img src="images/teamwork.svg"/>                    
+                        <img src="images/tick-inside-circle.svg"/>                    
                         <div class="tutorial__paragraph">
-                            <h1>2. Verify account</h1>
-                            <p>asdasdssssssss</p>
+                            <h1>2. <span class="text-secondary">Verify</span> account</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                         </div>
                     </div>
 
